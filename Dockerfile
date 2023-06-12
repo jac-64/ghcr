@@ -1,7 +1,7 @@
 # Container image that runs your code
 FROM alpine:3.14
 
-RUN apk add --no-cache bash
+#RUN apk add --no-cache bash
 
 WORKDIR /app
 

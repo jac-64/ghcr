@@ -3,7 +3,8 @@ FROM alpine:3.14
 
 #RUN apk add --no-cache bash
 
-WORKDIR /app
+#WORKDIR /app
+WORKDIR /
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
